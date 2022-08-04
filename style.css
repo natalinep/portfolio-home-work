@@ -87,3 +87,35 @@ p {
 .email-link:hover {
   text-decoration: underline !important;
 }
+@media (max-width: 991px) {
+  h1 {
+    font-size: 72px !important;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 64px !important;
+  }
+  .app-description {
+    order: 0;
+  }
+  .app-img {
+    order: -1;
+  }
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 38px !important;
+    }
+    h2 {
+      font-size: 32px !important;
+    }
+    h3 {
+      font-size: 16px !important;
+    }
+    .col-md-6 .contact-link {
+      display: flex;
+      justify-content: center;
+      margin: 0 50px;
+    }
+  }
+}
